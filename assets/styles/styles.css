@@ -251,15 +251,18 @@ margin-bottom: 25px;
     background: #FAFAFA;
     margin-top: 100px;
     display: grid;
-    grid-template-columns: repeat(3,370px);
-    justify-content: space-around;
+    grid-template-columns: repeat(3,1fr);
+    gap: 9px;
+    justify-items: center;
     
     
 }
 .block_1_greed{
-   
+    width: 310px;
+    height: 226px;
     display: flex;
     flex-direction: column;
+
     
     flex-shrink: 0;
     padding: 40px,30px,25px,31px; 
@@ -274,13 +277,14 @@ margin-bottom: 25px;
 
     }
     .block_2_greed{
-   
+        width: 370px;
+        height: 549px;
         display: flex;
         flex-direction: column;
         
         flex-shrink: 0;
         padding: 40px,30px,25px,31px;  
-        border: 2px solid black;
+        /* border: 2px solid black; */
         
         align-items: center;
     }
