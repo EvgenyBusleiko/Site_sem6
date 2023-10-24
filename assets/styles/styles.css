@@ -182,7 +182,7 @@ margin-top: 37px;
     margin-top: 100px;
     display: flex;
     justify-content:space-evenly; 
-    gap: 61px;
+    gap: 30px;
 }
   
 
@@ -194,11 +194,10 @@ margin-top: 37px;
 
     }
 .block_1{
-   
+    padding: 35px 31px 30px 40px;
     display: flex;
     flex-direction: column;
-    width: 310px;
-    height: 226px;
+    
     flex-shrink: 0;
     border: 2px solid black;
     
@@ -215,7 +214,7 @@ margin-bottom: 17px;
 }
 .block_text{
 width: 310px;
-height: 42px;
+
 flex-shrink: 0;
 color: #666;
 font-family: Gilroy-Regular;
@@ -258,33 +257,32 @@ margin-bottom: 25px;
     
 }
 .block_1_greed{
-    width: 310px;
-    height: 226px;
+    padding: 35px 31px 30px 40px;
     display: flex;
     flex-direction: column;
 
     
     flex-shrink: 0;
-    padding: 40px,30px,25px,31px; 
+    
     border: 2px solid black;
     
     
 }
 .block_icon_greed{
-    height: 270px;
+   
     flex-shrink: 0;
     margin-bottom: 25px;
 
     }
     .block_2_greed{
-        width: 370px;
-        height: 549px;
+        
+        
         display: flex;
         flex-direction: column;
         
         flex-shrink: 0;
         padding: 40px,30px,25px,31px;  
-        /* border: 2px solid black; */
+       
         
         align-items: center;
     }
