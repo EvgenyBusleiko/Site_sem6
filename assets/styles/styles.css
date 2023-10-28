@@ -8,7 +8,7 @@ h1{
     margin: 0;
 }
 .for_all_blocks{
-    width: 1274px;
+    width: 1203px;
     margin-left: auto;
     margin-right: auto;  
 }
@@ -198,7 +198,7 @@ margin-top: 37px;
     display: flex;
     flex-direction: column;
     
-    flex-shrink: 0;
+    
     border: 2px solid black;
     
 }
